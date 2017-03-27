@@ -14,36 +14,41 @@
 ## along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ## -*- texinfo -*- 
-## @deftypefn {Function File} {@var{retval} =} prerequisites (@var{input1}, @var{input2})
+## @deftypefn {Function File} {@var{retval} =} prerequisites_multiPlans (@var{input1}, @var{input2})
 ##
 ## @seealso{}
 ## @end deftypefn
 
 ## Author: shiven <shiven@shiven-Aspire-E5-571>
-## Created: 2017-02-06
+## Created: 2017-03-26
+
+function [retval] = prerequisites_multiPlans (reqNetArray)
+
+        reqNets = fieldnames(reqNetArray);
+        numberOfReqNets = length(reqNets);
+        for i = 1:numberOfReqNets
+                reqNetArray.(reqNets{i}) = prerequisites(reqNetArray.(reqNets{i}));
+        endfor
+        retval = reqNetArray;
+endfunction
 
 function [retval] = prerequisites (reqNet)
         reqNetFields = fieldnames(reqNet);
         for i = 1:(numel(reqNetFields) - 1)
                 prereqCoursesToCheck = reqNet.(reqNetFields{i}).preReqs;
                 for j = 1:numel(prereqCoursesToCheck)
-                          if (!reqNet.(prereqCoursesToCheck{j}).taken)
-                                reqNet = rmfield(reqNet, reqNetFields{i});
-                                break;
-                          endif
+                        
+                        if !isfield(reqNet, prereqCoursesToCheck{j})
+                              reqNet = rmfield(reqNet, reqNetFields{i});
+                              break;
+                        endif
+                        
+                        if !reqNet.(prereqCoursesToCheck{j}).taken
+                              reqNet = rmfield(reqNet, reqNetFields{i});
+                              break;
+                        endif
+                        
                 endfor
         endfor
         retval = reqNet;
 endfunction
-
-#{
-## Calculates prerequisite requirements dor just one course
-function [retval] = prerequisites (reqNet, courseCode)
-        retval = true;
-        coursesToCheck = reqNet.(courseCode).preReqs;
-        for i = 1:numel(coursesToCheck)
-                retval = retval & reqNet.(coursesToCheck{i}).taken;
-        end
-        reqNet.(courseCode).feasibility = retval;
-endfunction
-#}

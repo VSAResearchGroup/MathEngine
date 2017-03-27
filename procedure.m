@@ -14,29 +14,96 @@
 ## along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ## -*- texinfo -*- 
-## @deftypefn {Function File} {@var{retval} =} test2 (@var{input1}, @var{input2})
+## @deftypefn {Function File} {@var{retval} =} procedure (@var{input1}, @var{input2})
 ##
-## @seealso{}
+## @seealso
 ## @end deftypefn
 
 ## Author: shiven <shiven@shiven-Aspire-E5-571>
-## Created: 2017-02-05
+## Created: 2017-03-22
 
-function [retval] = procedure (input1)
-  disp(input1)
-  
-  #DataStructure_WorkingSet.mat needs to be saved in binary format
-  #save ("-binary", "DataStructure_Sample.workspace",<varname>)
-  load DataStructure_WorkingSet.mat
+function [retval] = procedure ()
+        clc
+        clear 
+        load DataStructure_WorkingSet.workspace 
+        clc
+        targetCourses = {'CSS344','CSS220','CSS341'};
+        ReqNet = skim(targetCourses,ReqNet);
+        #ReqNet = yearFilter(ReqNet, 4);
+        ReqNet = scheduleMatching(ReqNet, {1, 2, 3, 4, 5, 6, 7});
+        ReqNet = timeFilter_multiPair(ReqNet, studentTimes);
+        ReqNet = courseStatusUpdation(ReqNet);
+        ReqNetArray = clashDetection_planCreation(ReqNet);
+        #retval = prerequisites_multiPlans(ReqNetArray);
+        QtrArr = quarter_budgetDistribution(ReqNetArray);
+        plans = createFinalPlansStruct(QtrArr);
+        TF = writeJSON(plans);
+        if TF
+                disp('Success');
+        endif
+        retval = plans;
+endfunction
 
-  fields = fieldnames(ReqNet)
-  maxIndexNum = numel(fields)
 
-  #test segment
-  #{
-    for i = 1:maxIndexNum
-      str2num(fields{i})-1568400
-    end
-  #}
-  
+function [retval] = courseStatusUpdation(reqNet)
+        reqNetFields = fieldnames(reqNet);
+        numberOfReqNetFields = numel(reqNetFields) - 1;
+                        
+        for k = 1:numberOfReqNetFields
+                if !reqNet.(reqNetFields{k}).taken       #true is 1
+                        reqNet.(reqNetFields{k}).taken = true;
+                endif
+        endfor
+        retval = reqNet;
+endfunction
+
+function [retval] = quarter_budgetDistribution(reqNetArray)
+        ##This function assumes that all the courses after 10 credits incurr the same fees
+        perQtrCrdHr = 0;
+        planArr = {};
+        reqNets = fieldnames(reqNetArray);
+        numberOfReqNets = length(reqNets);
+        for j = 1:numberOfReqNets
+                qtrArr = {};
+                qtrArrRow = 1;          #rows of array
+                qtrArrCol = 1;          #columns of array
+                
+                perQtrCrdHr = 0;
+                reqNet = reqNetArray.(reqNets{j});
+                
+                reqNetFields = fieldnames(reqNet);      #reversing the array of courses
+                numberOfReqNetFields = numel(reqNetFields) - 1;
+                        
+                for k = 1:numberOfReqNetFields
+                        perQtrCrdHr += creditCreditHours(reqNet,reqNetFields{numberOfReqNetFields - k + 1});
+                        qtrArr{qtrArrRow}{qtrArrCol++} = reqNetFields{numberOfReqNetFields - k + 1};
+                        if perQtrCrdHr>5
+                                qtrArrRow++;
+                                qtrArrCol= 1;
+                        endif
+                endfor
+                planArr{j} = qtrArr;
+        endfor
+        retval = planArr;
+endfunction
+
+function [retval] = createFinalPlansStruct(planArr)
+        FinalPlansStruct = {};
+        for planNumber = 1:length(planArr)
+                qtrArr = planArr{planNumber};
+                rowsQtrArr = length(qtrArr);
+                
+                for row = 1:rowsQtrArr
+                        FinalPlansStruct.(strcat('Plan-', num2str(planNumber))).(strcat('Quarter-', num2str(row))).coursesSuggested = qtrArr{row};
+                endfor
+        endfor
+        retval = FinalPlansStruct;
+endfunction
+
+function [retval_tf] = writeJSON(plans)
+        fileStr = savejson('plans', plans);
+        fid=fopen('plans.json','w');
+        fprintf(fid, fileStr);
+        fclose(fid);
+        retval_tf = true;
 endfunction

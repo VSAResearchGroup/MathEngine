@@ -22,6 +22,35 @@
 ## Author: shiven <shiven@shiven-Aspire-E5-571>
 ## Created: 2017-02-06
 
-function [retval] = scheduleMatching (courseDays, studentDays)
-        retval = sum(pow2(studentDays)) - sum(pow2(courseDays)) >= 0;
+function [retval] = scheduleMatching (reqNet, studentDays)
+        studentDays_2 = studentDays(1){1};
+        for j = 2:numel(studentDays)
+                studentDays_2 = [studentDays_2;studentDays(j){1}];
+        endfor
+        
+        fields = fieldnames(reqNet);
+        for i = 1:(numel(fields) - 1)
+                courseDays = reqNet.(fields{i}).days;
+                courseDays_2 = courseDays(1){1};
+                for j = 2:numel(courseDays)
+                        courseDays_2 = [courseDays_2;courseDays(j){1}];
+                endfor
+                
+                subset = all(ismember(courseDays_2, studentDays_2));
+                
+                %{
+                sum(pow2(studentDays_2)) - sum(pow2(courseDays_2))
+                
+                if(sum(pow2(studentDays_2)) - sum(pow2(courseDays_2)) < 0)
+                        reqNet = rmfield(reqNet,fields{i});
+                endif
+                %}
+                
+                if(~subset)
+                        reqNet = rmfield(reqNet,fields{i});
+                endif        
+                
+        endfor
+        retval = reqNet;
+        ##retval = sum(pow2(studentDays)) - sum(pow2(courseDays)) >= 0;
 endfunction

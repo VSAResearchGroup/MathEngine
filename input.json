@@ -1,0 +1,120 @@
+{
+	"ReqNet": {
+		"CSS220": {
+			"startTime": 1500,
+			"endTime": 1700,
+			"credits": 5,
+			"preReqConst": 100,
+			"days": [
+				2,
+				4
+			],
+			"taken": 0,
+			"preReqs": [
+				"CSS182",
+				"CSS161",
+				"base"
+			],
+			"yearFilter": 0
+		},
+		"CSS182": {
+			"startTime": 2000,
+			"endTime": 2200,
+			"credits": 5,
+			"preReqConst": 80,
+			"days": [
+				1,
+				3
+			],
+			"taken": 0,
+			"preReqs": [
+				"CSS161"
+			],
+			"yearFilter": 0
+		},
+		"CSS161": {
+			"startTime": 2000,
+			"endTime": 2200,
+			"credits": 2,
+			"preReqConst": 60,
+			"days": [
+				1,
+				3
+			],
+			"taken": 1,
+			"preReqs": [
+				"base"
+			],
+			"yearFilter": 0
+		},
+		"base": {
+			"preReqConst": 40,
+			"taken": 1,
+			"credits": 0,
+			"yearFilter": 1,
+			"indicesNextQtrPlans": [
+				0
+			]
+		},
+		"CSS341": {
+			"startTime": 1530,
+			"endTime": 1730,
+			"credits": 5,
+			"preReqConst": 100,
+			"days": [
+				4,
+				5
+			],
+			"taken": 0,
+			"preReqs": [
+				"CSS182",
+				"CSS181"
+			],
+			"yearFilter": 0
+		},
+		"CSS181": {
+			"startTime": 1430,
+			"endTime": 1630,
+			"credits": 5,
+			"preReqConst": 140,
+			"days": [
+				3,
+				5
+			],
+			"taken": 0,
+			"preReqs": [
+				"CSS175"
+			],
+			"yearFilter": 0
+		},
+		"CSS175": {
+			"startTime": 2000,
+			"endTime": 2200,
+			"credits": 2,
+			"preReqConst": 160,
+			"days": [
+				2
+			],
+			"taken": 0,
+			"preReqs": [
+				"CSS161"
+			],
+			"yearFilter": 0
+		},
+		"CSS344": {
+			"startTime": 1530,
+			"endTime": 1730,
+			"credits": 5,
+			"preReqConst": 180,
+			"days": [
+				2,
+				4
+			],
+			"taken": 0,
+			"preReqs": [
+				"CSS182"
+			],
+			"yearFilter": 0
+		}
+	}
+}

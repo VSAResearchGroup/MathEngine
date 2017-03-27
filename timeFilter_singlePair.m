@@ -22,7 +22,7 @@
 ## Author: shiven <shiven@shiven-Aspire-E5-571>
 ## Created: 2017-02-06
 
-function [retval] = timeFilter (reqNet, studentStartTime, studentEndTime)
+function [retval] = timeFilter_singlePair (reqNet, studentStartTime, studentEndTime)
         fields = fieldnames(reqNet);
         for i = 1:(numel(fields) - 1)
                 if (reqNet.(fields{i}).startTime < studentStartTime | reqNet.(fields{i}).endTime > studentEndTime)

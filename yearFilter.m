@@ -24,10 +24,33 @@
 
 function [retval] = yearFilter (reqNet, year)
         retval = {'base'};
+        removeIndices = {};
+        reqNetFields = fieldnames(reqNet);
+        numberOfSubjects = numel(reqNetFields) - 1;
+        for i = 1:numberOfSubjects
+                if (abs(year * 100 - str2num(reqNetFields{i}(4:6))) < 100)
+                        removeIndices{length(removeIndices)+1} = i;
+                endif        
+        end
+        
+        removeIndices{length(removeIndices)+1} = numberOfSubjects + 1;
+        indices = [1:length(reqNetFields)];
+        
+        for i = 1:length(removeIndices)
+                indices = indices(find(indices~=removeIndices{i}));
+        endfor
+        
+        reqNet = rmfield(reqNet,reqNetFields(indices));
+        retval = reqNet;
+        
+        %{
+        #Original algorithm
+        retval = {'base'};
         fields = fieldnames(reqNet);
         for i = 1:(numel(fields) - 1)
                 if (abs(year * 100 - str2num(fields{i}(4:6))) < 100)
-                        retval(end + 1) = fields{i}
+                        retval(end + 1) = fields{i};
                 endif        
         end
+        %}
 endfunction

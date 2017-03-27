@@ -23,5 +23,5 @@
 ## Created: 2017-02-06
 
 function [creditHours] = creditCreditHours (reqNet, courseCode)
-        creditHours = ceil(reqNet.(courseCode).credits * 0.8) *10;
+        creditHours = ceil(reqNet.(courseCode).credits * 0.8);          # *10;
 endfunction
