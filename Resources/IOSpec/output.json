@@ -1,0 +1,3137 @@
+[
+    {
+        "PlanId": 0,
+        "PlanScore": 0.99444442987442,
+        "Quarters": [
+            {
+                "Courses": [
+                    897,
+                    906
+                ],
+                "Quarter": 1,
+                "Year": 2016
+            },
+            {
+                "Courses": [
+                    452,
+                    901
+                ],
+                "Quarter": 2,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    345,
+                    902
+                ],
+                "Quarter": 3,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    266,
+                    498,
+                    490
+                ],
+                "Quarter": 4,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    916
+                ],
+                "Quarter": 1,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    349
+                ],
+                "Quarter": 2,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    350
+                ],
+                "Quarter": 3,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    917
+                ],
+                "Quarter": 4,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    505
+                ],
+                "Quarter": 1,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    1094
+                ],
+                "Quarter": 2,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    921
+                ],
+                "Quarter": 3,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1100,
+                    922
+                ],
+                "Quarter": 4,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    924
+                ],
+                "Quarter": 1,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1101,
+                    926
+                ],
+                "Quarter": 2,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    507
+                ],
+                "Quarter": 3,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1102,
+                    914
+                ],
+                "Quarter": 4,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    913
+                ],
+                "Quarter": 1,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1246
+                ],
+                "Quarter": 2,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    268
+                ],
+                "Quarter": 3,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    517
+                ],
+                "Quarter": 4,
+                "Year": 2021
+            }
+        ]
+    },
+    {
+        "PlanId": 1,
+        "PlanScore": 0.993055582046509,
+        "Quarters": [
+            {
+                "Courses": [
+                    906
+                ],
+                "Quarter": 1,
+                "Year": 2016
+            },
+            {
+                "Courses": [
+                    452,
+                    897
+                ],
+                "Quarter": 2,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    901
+                ],
+                "Quarter": 3,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    498,
+                    902
+                ],
+                "Quarter": 4,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    916
+                ],
+                "Quarter": 1,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    505
+                ],
+                "Quarter": 2,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    490
+                ],
+                "Quarter": 3,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    917
+                ],
+                "Quarter": 4,
+                "Year": 2018
+            },
+            {
+                "Courses": null,
+                "Quarter": 1,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    921
+                ],
+                "Quarter": 2,
+                "Year": 2019
+            },
+            {
+                "Courses": null,
+                "Quarter": 3,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    922
+                ],
+                "Quarter": 4,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    345
+                ],
+                "Quarter": 1,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    349
+                ],
+                "Quarter": 2,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    350
+                ],
+                "Quarter": 3,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1094
+                ],
+                "Quarter": 4,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    924
+                ],
+                "Quarter": 1,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    507
+                ],
+                "Quarter": 2,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    1100,
+                    926
+                ],
+                "Quarter": 3,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    1101,
+                    913
+                ],
+                "Quarter": 4,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    1246
+                ],
+                "Quarter": 1,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    1102,
+                    914
+                ],
+                "Quarter": 2,
+                "Year": 2022
+            },
+            {
+                "Courses": [
+                    517
+                ],
+                "Quarter": 3,
+                "Year": 2022
+            },
+            {
+                "Courses": [
+                    268
+                ],
+                "Quarter": 4,
+                "Year": 2022
+            }
+        ]
+    },
+    {
+        "PlanId": 2,
+        "PlanScore": 0.992424249649048,
+        "Quarters": [
+            {
+                "Courses": [
+                    452,
+                    897
+                ],
+                "Quarter": 1,
+                "Year": 2016
+            },
+            {
+                "Courses": [
+                    901,
+                    906
+                ],
+                "Quarter": 2,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    490,
+                    902
+                ],
+                "Quarter": 3,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    266,
+                    498
+                ],
+                "Quarter": 4,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    916
+                ],
+                "Quarter": 1,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    345
+                ],
+                "Quarter": 2,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    917
+                ],
+                "Quarter": 3,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    505
+                ],
+                "Quarter": 4,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    1094
+                ],
+                "Quarter": 1,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    921
+                ],
+                "Quarter": 2,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1100,
+                    922
+                ],
+                "Quarter": 3,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    924
+                ],
+                "Quarter": 4,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1101,
+                    926
+                ],
+                "Quarter": 1,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    507
+                ],
+                "Quarter": 2,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1102,
+                    914
+                ],
+                "Quarter": 3,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    349
+                ],
+                "Quarter": 4,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    913
+                ],
+                "Quarter": 1,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    517
+                ],
+                "Quarter": 2,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    350
+                ],
+                "Quarter": 3,
+                "Year": 2021
+            },
+            {
+                "Courses": null,
+                "Quarter": 4,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    1246
+                ],
+                "Quarter": 1,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    268
+                ],
+                "Quarter": 2,
+                "Year": 2022
+            }
+        ]
+    },
+    {
+        "PlanId": 3,
+        "PlanScore": 0.992063522338867,
+        "Quarters": [
+            {
+                "Courses": [
+                    897,
+                    906
+                ],
+                "Quarter": 1,
+                "Year": 2016
+            },
+            {
+                "Courses": [
+                    452,
+                    901
+                ],
+                "Quarter": 2,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    345,
+                    902
+                ],
+                "Quarter": 3,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    349,
+                    498
+                ],
+                "Quarter": 4,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    916
+                ],
+                "Quarter": 1,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    505
+                ],
+                "Quarter": 2,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    350,
+                    490
+                ],
+                "Quarter": 3,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    917
+                ],
+                "Quarter": 4,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    1094
+                ],
+                "Quarter": 1,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    921
+                ],
+                "Quarter": 2,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1100
+                ],
+                "Quarter": 3,
+                "Year": 2019
+            },
+            {
+                "Courses": null,
+                "Quarter": 4,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    922
+                ],
+                "Quarter": 1,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1101,
+                    924
+                ],
+                "Quarter": 2,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    507
+                ],
+                "Quarter": 3,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    926
+                ],
+                "Quarter": 4,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    913
+                ],
+                "Quarter": 1,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1246
+                ],
+                "Quarter": 2,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    268
+                ],
+                "Quarter": 3,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    1102,
+                    914
+                ],
+                "Quarter": 4,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    517
+                ],
+                "Quarter": 1,
+                "Year": 2021
+            }
+        ]
+    },
+    {
+        "PlanId": 4,
+        "PlanScore": 0.992063522338867,
+        "Quarters": [
+            {
+                "Courses": [
+                    897,
+                    906
+                ],
+                "Quarter": 1,
+                "Year": 2016
+            },
+            {
+                "Courses": [
+                    452,
+                    901
+                ],
+                "Quarter": 2,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    345,
+                    902
+                ],
+                "Quarter": 3,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    349,
+                    498
+                ],
+                "Quarter": 4,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    916
+                ],
+                "Quarter": 1,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    505
+                ],
+                "Quarter": 2,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    350,
+                    490
+                ],
+                "Quarter": 3,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    917
+                ],
+                "Quarter": 4,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    1094
+                ],
+                "Quarter": 1,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    921
+                ],
+                "Quarter": 2,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1100
+                ],
+                "Quarter": 3,
+                "Year": 2019
+            },
+            {
+                "Courses": null,
+                "Quarter": 4,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    922
+                ],
+                "Quarter": 1,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1101,
+                    924
+                ],
+                "Quarter": 2,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    507
+                ],
+                "Quarter": 3,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    926
+                ],
+                "Quarter": 4,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    913
+                ],
+                "Quarter": 1,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1246
+                ],
+                "Quarter": 2,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    268
+                ],
+                "Quarter": 3,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    1102,
+                    914
+                ],
+                "Quarter": 4,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    517
+                ],
+                "Quarter": 1,
+                "Year": 2021
+            }
+        ]
+    },
+    {
+        "PlanId": 5,
+        "PlanScore": 0.992063522338867,
+        "Quarters": [
+            {
+                "Courses": [
+                    452,
+                    897
+                ],
+                "Quarter": 1,
+                "Year": 2016
+            },
+            {
+                "Courses": [
+                    266,
+                    901
+                ],
+                "Quarter": 2,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    490,
+                    902
+                ],
+                "Quarter": 3,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    498,
+                    906
+                ],
+                "Quarter": 4,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    916
+                ],
+                "Quarter": 1,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    505
+                ],
+                "Quarter": 2,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    917
+                ],
+                "Quarter": 3,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    1094
+                ],
+                "Quarter": 4,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    921
+                ],
+                "Quarter": 1,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    922
+                ],
+                "Quarter": 2,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    924
+                ],
+                "Quarter": 3,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    345
+                ],
+                "Quarter": 4,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    349
+                ],
+                "Quarter": 1,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1246
+                ],
+                "Quarter": 2,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    350
+                ],
+                "Quarter": 3,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1100,
+                    926
+                ],
+                "Quarter": 4,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1101,
+                    914
+                ],
+                "Quarter": 1,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1102,
+                    913
+                ],
+                "Quarter": 2,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    268
+                ],
+                "Quarter": 3,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    507
+                ],
+                "Quarter": 4,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    517
+                ],
+                "Quarter": 1,
+                "Year": 2021
+            }
+        ]
+    },
+    {
+        "PlanId": 6,
+        "PlanScore": 0.992063522338867,
+        "Quarters": [
+            {
+                "Courses": [
+                    906,
+                    897
+                ],
+                "Quarter": 1,
+                "Year": 2016
+            },
+            {
+                "Courses": [
+                    452,
+                    901
+                ],
+                "Quarter": 2,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    266,
+                    902
+                ],
+                "Quarter": 3,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    345,
+                    498
+                ],
+                "Quarter": 4,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    916
+                ],
+                "Quarter": 1,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    349
+                ],
+                "Quarter": 2,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    917
+                ],
+                "Quarter": 3,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    1094
+                ],
+                "Quarter": 4,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    490
+                ],
+                "Quarter": 1,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    505
+                ],
+                "Quarter": 2,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    350
+                ],
+                "Quarter": 3,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    921
+                ],
+                "Quarter": 4,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1100,
+                    922
+                ],
+                "Quarter": 1,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    924
+                ],
+                "Quarter": 2,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1101,
+                    926
+                ],
+                "Quarter": 3,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    507
+                ],
+                "Quarter": 4,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1246
+                ],
+                "Quarter": 1,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    268
+                ],
+                "Quarter": 2,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    1102,
+                    914
+                ],
+                "Quarter": 3,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    913
+                ],
+                "Quarter": 4,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    517
+                ],
+                "Quarter": 1,
+                "Year": 2021
+            }
+        ]
+    },
+    {
+        "PlanId": 7,
+        "PlanScore": 0.992063522338867,
+        "Quarters": [
+            {
+                "Courses": [
+                    906,
+                    897
+                ],
+                "Quarter": 1,
+                "Year": 2016
+            },
+            {
+                "Courses": [
+                    452,
+                    901
+                ],
+                "Quarter": 2,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    266,
+                    902
+                ],
+                "Quarter": 3,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    345,
+                    498
+                ],
+                "Quarter": 4,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    916
+                ],
+                "Quarter": 1,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    349
+                ],
+                "Quarter": 2,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    350,
+                    490
+                ],
+                "Quarter": 3,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    917
+                ],
+                "Quarter": 4,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    505
+                ],
+                "Quarter": 1,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    921
+                ],
+                "Quarter": 2,
+                "Year": 2019
+            },
+            {
+                "Courses": null,
+                "Quarter": 3,
+                "Year": 2019
+            },
+            {
+                "Courses": null,
+                "Quarter": 4,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    922
+                ],
+                "Quarter": 1,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1094
+                ],
+                "Quarter": 2,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    507
+                ],
+                "Quarter": 3,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1100,
+                    924
+                ],
+                "Quarter": 4,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1101,
+                    926
+                ],
+                "Quarter": 1,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1246
+                ],
+                "Quarter": 2,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    268
+                ],
+                "Quarter": 3,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    1102,
+                    913
+                ],
+                "Quarter": 4,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    517,
+                    914
+                ],
+                "Quarter": 1,
+                "Year": 2021
+            }
+        ]
+    },
+    {
+        "PlanId": 8,
+        "PlanScore": 0.992063522338867,
+        "Quarters": [
+            {
+                "Courses": [
+                    897,
+                    452
+                ],
+                "Quarter": 1,
+                "Year": 2016
+            },
+            {
+                "Courses": [
+                    901,
+                    266
+                ],
+                "Quarter": 2,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    350,
+                    902
+                ],
+                "Quarter": 3,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    345,
+                    498
+                ],
+                "Quarter": 4,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    906
+                ],
+                "Quarter": 1,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    349
+                ],
+                "Quarter": 2,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    916
+                ],
+                "Quarter": 3,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    917
+                ],
+                "Quarter": 4,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    505
+                ],
+                "Quarter": 1,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    490
+                ],
+                "Quarter": 2,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    921
+                ],
+                "Quarter": 3,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    922
+                ],
+                "Quarter": 4,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    507
+                ],
+                "Quarter": 1,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1094
+                ],
+                "Quarter": 2,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    924
+                ],
+                "Quarter": 3,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1100,
+                    926
+                ],
+                "Quarter": 4,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1101,
+                    913
+                ],
+                "Quarter": 1,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1246
+                ],
+                "Quarter": 2,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    1102,
+                    914
+                ],
+                "Quarter": 3,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    268
+                ],
+                "Quarter": 4,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    517
+                ],
+                "Quarter": 1,
+                "Year": 2021
+            }
+        ]
+    },
+    {
+        "PlanId": 9,
+        "PlanScore": 0.991666615009308,
+        "Quarters": [
+            {
+                "Courses": [
+                    901,
+                    266
+                ],
+                "Quarter": 1,
+                "Year": 2016
+            },
+            {
+                "Courses": [
+                    452
+                ],
+                "Quarter": 2,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    345,
+                    902
+                ],
+                "Quarter": 3,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    349,
+                    498
+                ],
+                "Quarter": 4,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    490,
+                    906
+                ],
+                "Quarter": 1,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    916
+                ],
+                "Quarter": 2,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    350
+                ],
+                "Quarter": 3,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    917
+                ],
+                "Quarter": 4,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    505
+                ],
+                "Quarter": 1,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    1094
+                ],
+                "Quarter": 2,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    921
+                ],
+                "Quarter": 3,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1100,
+                    922
+                ],
+                "Quarter": 4,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    924
+                ],
+                "Quarter": 1,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1101,
+                    926
+                ],
+                "Quarter": 2,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1102,
+                    914
+                ],
+                "Quarter": 3,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    507
+                ],
+                "Quarter": 4,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    517
+                ],
+                "Quarter": 1,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1246
+                ],
+                "Quarter": 2,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    913
+                ],
+                "Quarter": 3,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    268
+                ],
+                "Quarter": 4,
+                "Year": 2021
+            }
+        ]
+    },
+    {
+        "PlanId": 10,
+        "PlanScore": 0.991666615009308,
+        "Quarters": [
+            {
+                "Courses": [
+                    906,
+                    901
+                ],
+                "Quarter": 1,
+                "Year": 2016
+            },
+            {
+                "Courses": [
+                    452
+                ],
+                "Quarter": 2,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    266,
+                    902
+                ],
+                "Quarter": 3,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    345,
+                    498
+                ],
+                "Quarter": 4,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    916
+                ],
+                "Quarter": 1,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    349
+                ],
+                "Quarter": 2,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    350,
+                    490
+                ],
+                "Quarter": 3,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    917
+                ],
+                "Quarter": 4,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    505
+                ],
+                "Quarter": 1,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    1094
+                ],
+                "Quarter": 2,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    921
+                ],
+                "Quarter": 3,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1100,
+                    922
+                ],
+                "Quarter": 4,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    924
+                ],
+                "Quarter": 1,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1101,
+                    926
+                ],
+                "Quarter": 2,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    507
+                ],
+                "Quarter": 3,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1102,
+                    914
+                ],
+                "Quarter": 4,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    913
+                ],
+                "Quarter": 1,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1246
+                ],
+                "Quarter": 2,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    268
+                ],
+                "Quarter": 3,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    517
+                ],
+                "Quarter": 4,
+                "Year": 2021
+            }
+        ]
+    },
+    {
+        "PlanId": 11,
+        "PlanScore": 0.991666615009308,
+        "Quarters": [
+            {
+                "Courses": [
+                    906,
+                    897
+                ],
+                "Quarter": 1,
+                "Year": 2016
+            },
+            {
+                "Courses": [
+                    452,
+                    901
+                ],
+                "Quarter": 2,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    266,
+                    902
+                ],
+                "Quarter": 3,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    345,
+                    498
+                ],
+                "Quarter": 4,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    916
+                ],
+                "Quarter": 1,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    349
+                ],
+                "Quarter": 2,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    350,
+                    490
+                ],
+                "Quarter": 3,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    917
+                ],
+                "Quarter": 4,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    505
+                ],
+                "Quarter": 1,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    1094
+                ],
+                "Quarter": 2,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    921
+                ],
+                "Quarter": 3,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1100,
+                    922
+                ],
+                "Quarter": 4,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    924
+                ],
+                "Quarter": 1,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1101,
+                    926
+                ],
+                "Quarter": 2,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    507
+                ],
+                "Quarter": 3,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1102,
+                    914
+                ],
+                "Quarter": 4,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    913
+                ],
+                "Quarter": 1,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1246
+                ],
+                "Quarter": 2,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    268
+                ],
+                "Quarter": 3,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    517
+                ],
+                "Quarter": 4,
+                "Year": 2021
+            }
+        ]
+    },
+    {
+        "PlanId": 12,
+        "PlanScore": 0.991666615009308,
+        "Quarters": [
+            {
+                "Courses": [
+                    906,
+                    897
+                ],
+                "Quarter": 1,
+                "Year": 2016
+            },
+            {
+                "Courses": [
+                    452,
+                    901
+                ],
+                "Quarter": 2,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    350,
+                    902
+                ],
+                "Quarter": 3,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    345,
+                    498
+                ],
+                "Quarter": 4,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    916
+                ],
+                "Quarter": 1,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    349
+                ],
+                "Quarter": 2,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    917
+                ],
+                "Quarter": 3,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    505
+                ],
+                "Quarter": 4,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    1094
+                ],
+                "Quarter": 1,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    490
+                ],
+                "Quarter": 2,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    921
+                ],
+                "Quarter": 3,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1100,
+                    922
+                ],
+                "Quarter": 4,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    924
+                ],
+                "Quarter": 1,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1101,
+                    926
+                ],
+                "Quarter": 2,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1102,
+                    914
+                ],
+                "Quarter": 3,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    507
+                ],
+                "Quarter": 4,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    517
+                ],
+                "Quarter": 1,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1246
+                ],
+                "Quarter": 2,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    913
+                ],
+                "Quarter": 3,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    268
+                ],
+                "Quarter": 4,
+                "Year": 2021
+            }
+        ]
+    },
+    {
+        "PlanId": 13,
+        "PlanScore": 0.991666615009308,
+        "Quarters": [
+            {
+                "Courses": [
+                    906,
+                    897
+                ],
+                "Quarter": 1,
+                "Year": 2016
+            },
+            {
+                "Courses": [
+                    452,
+                    901
+                ],
+                "Quarter": 2,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    266,
+                    902
+                ],
+                "Quarter": 3,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    345,
+                    498
+                ],
+                "Quarter": 4,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    916
+                ],
+                "Quarter": 1,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    349
+                ],
+                "Quarter": 2,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    350,
+                    490
+                ],
+                "Quarter": 3,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    917
+                ],
+                "Quarter": 4,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    505
+                ],
+                "Quarter": 1,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    1094
+                ],
+                "Quarter": 2,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    921
+                ],
+                "Quarter": 3,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1100,
+                    922
+                ],
+                "Quarter": 4,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    924
+                ],
+                "Quarter": 1,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1246
+                ],
+                "Quarter": 2,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1101,
+                    926
+                ],
+                "Quarter": 3,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    507
+                ],
+                "Quarter": 4,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    268
+                ],
+                "Quarter": 1,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1102,
+                    914
+                ],
+                "Quarter": 2,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    913
+                ],
+                "Quarter": 3,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    517
+                ],
+                "Quarter": 4,
+                "Year": 2021
+            }
+        ]
+    },
+    {
+        "PlanId": 14,
+        "PlanScore": 0.991666615009308,
+        "Quarters": [
+            {
+                "Courses": [
+                    906,
+                    897
+                ],
+                "Quarter": 1,
+                "Year": 2016
+            },
+            {
+                "Courses": [
+                    452,
+                    901
+                ],
+                "Quarter": 2,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    266,
+                    902
+                ],
+                "Quarter": 3,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    345,
+                    498
+                ],
+                "Quarter": 4,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    916
+                ],
+                "Quarter": 1,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    349
+                ],
+                "Quarter": 2,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    350,
+                    490
+                ],
+                "Quarter": 3,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    917
+                ],
+                "Quarter": 4,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    505
+                ],
+                "Quarter": 1,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    1094
+                ],
+                "Quarter": 2,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    921
+                ],
+                "Quarter": 3,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1100,
+                    922
+                ],
+                "Quarter": 4,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    924
+                ],
+                "Quarter": 1,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1101,
+                    926
+                ],
+                "Quarter": 2,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    507
+                ],
+                "Quarter": 3,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1102,
+                    914
+                ],
+                "Quarter": 4,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    913
+                ],
+                "Quarter": 1,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1246
+                ],
+                "Quarter": 2,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    268
+                ],
+                "Quarter": 3,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    517
+                ],
+                "Quarter": 4,
+                "Year": 2021
+            }
+        ]
+    },
+    {
+        "PlanId": 15,
+        "PlanScore": 0.991666615009308,
+        "Quarters": [
+            {
+                "Courses": [
+                    897,
+                    906
+                ],
+                "Quarter": 1,
+                "Year": 2016
+            },
+            {
+                "Courses": [
+                    901,
+                    452
+                ],
+                "Quarter": 2,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    266,
+                    902
+                ],
+                "Quarter": 3,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    345,
+                    498
+                ],
+                "Quarter": 4,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    916
+                ],
+                "Quarter": 1,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    349
+                ],
+                "Quarter": 2,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    350,
+                    490
+                ],
+                "Quarter": 3,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    917
+                ],
+                "Quarter": 4,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    505
+                ],
+                "Quarter": 1,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    1094
+                ],
+                "Quarter": 2,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    921
+                ],
+                "Quarter": 3,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1100,
+                    922
+                ],
+                "Quarter": 4,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    924
+                ],
+                "Quarter": 1,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1101,
+                    926
+                ],
+                "Quarter": 2,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    507
+                ],
+                "Quarter": 3,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1102,
+                    914
+                ],
+                "Quarter": 4,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    913
+                ],
+                "Quarter": 1,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1246
+                ],
+                "Quarter": 2,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    268
+                ],
+                "Quarter": 3,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    517
+                ],
+                "Quarter": 4,
+                "Year": 2021
+            }
+        ]
+    },
+    {
+        "PlanId": 16,
+        "PlanScore": 0.991666615009308,
+        "Quarters": [
+            {
+                "Courses": [
+                    906,
+                    897
+                ],
+                "Quarter": 1,
+                "Year": 2016
+            },
+            {
+                "Courses": [
+                    452,
+                    901
+                ],
+                "Quarter": 2,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    350,
+                    902
+                ],
+                "Quarter": 3,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    345,
+                    498
+                ],
+                "Quarter": 4,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    916
+                ],
+                "Quarter": 1,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    349
+                ],
+                "Quarter": 2,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    917
+                ],
+                "Quarter": 3,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    505
+                ],
+                "Quarter": 4,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    1094
+                ],
+                "Quarter": 1,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    490
+                ],
+                "Quarter": 2,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    921
+                ],
+                "Quarter": 3,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1100,
+                    922
+                ],
+                "Quarter": 4,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    924
+                ],
+                "Quarter": 1,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1101,
+                    926
+                ],
+                "Quarter": 2,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1102,
+                    914
+                ],
+                "Quarter": 3,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    507
+                ],
+                "Quarter": 4,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    517
+                ],
+                "Quarter": 1,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1246
+                ],
+                "Quarter": 2,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    913
+                ],
+                "Quarter": 3,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    268
+                ],
+                "Quarter": 4,
+                "Year": 2021
+            }
+        ]
+    },
+    {
+        "PlanId": 17,
+        "PlanScore": 0.991666615009308,
+        "Quarters": [
+            {
+                "Courses": [
+                    906,
+                    897
+                ],
+                "Quarter": 1,
+                "Year": 2016
+            },
+            {
+                "Courses": [
+                    452,
+                    901
+                ],
+                "Quarter": 2,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    350,
+                    902
+                ],
+                "Quarter": 3,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    345,
+                    498
+                ],
+                "Quarter": 4,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    916
+                ],
+                "Quarter": 1,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    349
+                ],
+                "Quarter": 2,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    917
+                ],
+                "Quarter": 3,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    505
+                ],
+                "Quarter": 4,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    1094
+                ],
+                "Quarter": 1,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    490
+                ],
+                "Quarter": 2,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    921
+                ],
+                "Quarter": 3,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1100,
+                    922
+                ],
+                "Quarter": 4,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    924
+                ],
+                "Quarter": 1,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1101,
+                    926
+                ],
+                "Quarter": 2,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1102,
+                    914
+                ],
+                "Quarter": 3,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    507
+                ],
+                "Quarter": 4,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    517
+                ],
+                "Quarter": 1,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1246
+                ],
+                "Quarter": 2,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    913
+                ],
+                "Quarter": 3,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    268
+                ],
+                "Quarter": 4,
+                "Year": 2021
+            }
+        ]
+    },
+    {
+        "PlanId": 18,
+        "PlanScore": 0.991666615009308,
+        "Quarters": [
+            {
+                "Courses": [
+                    906,
+                    897
+                ],
+                "Quarter": 1,
+                "Year": 2016
+            },
+            {
+                "Courses": [
+                    452,
+                    901
+                ],
+                "Quarter": 2,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    350,
+                    902
+                ],
+                "Quarter": 3,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    345,
+                    498
+                ],
+                "Quarter": 4,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    916
+                ],
+                "Quarter": 1,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    349
+                ],
+                "Quarter": 2,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    917
+                ],
+                "Quarter": 3,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    1094
+                ],
+                "Quarter": 4,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    490
+                ],
+                "Quarter": 1,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    505
+                ],
+                "Quarter": 2,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    921
+                ],
+                "Quarter": 3,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1100,
+                    922
+                ],
+                "Quarter": 4,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    924
+                ],
+                "Quarter": 1,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1101,
+                    926
+                ],
+                "Quarter": 2,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1102,
+                    914
+                ],
+                "Quarter": 3,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    507
+                ],
+                "Quarter": 4,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    517
+                ],
+                "Quarter": 1,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1246
+                ],
+                "Quarter": 2,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    913
+                ],
+                "Quarter": 3,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    268
+                ],
+                "Quarter": 4,
+                "Year": 2021
+            }
+        ]
+    },
+    {
+        "PlanId": 19,
+        "PlanScore": 0.991666615009308,
+        "Quarters": [
+            {
+                "Courses": [
+                    906,
+                    897
+                ],
+                "Quarter": 1,
+                "Year": 2016
+            },
+            {
+                "Courses": [
+                    452,
+                    901
+                ],
+                "Quarter": 2,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    350,
+                    902
+                ],
+                "Quarter": 3,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    345,
+                    498
+                ],
+                "Quarter": 4,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    916
+                ],
+                "Quarter": 1,
+                "Year": 2017
+            },
+            {
+                "Courses": [
+                    349
+                ],
+                "Quarter": 2,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    917
+                ],
+                "Quarter": 3,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    505
+                ],
+                "Quarter": 4,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    1094
+                ],
+                "Quarter": 1,
+                "Year": 2018
+            },
+            {
+                "Courses": [
+                    490
+                ],
+                "Quarter": 2,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    921
+                ],
+                "Quarter": 3,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1100,
+                    922
+                ],
+                "Quarter": 4,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    924
+                ],
+                "Quarter": 1,
+                "Year": 2019
+            },
+            {
+                "Courses": [
+                    1101,
+                    926
+                ],
+                "Quarter": 2,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1102,
+                    914
+                ],
+                "Quarter": 3,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    507
+                ],
+                "Quarter": 4,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    517
+                ],
+                "Quarter": 1,
+                "Year": 2020
+            },
+            {
+                "Courses": [
+                    1246
+                ],
+                "Quarter": 2,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    913
+                ],
+                "Quarter": 3,
+                "Year": 2021
+            },
+            {
+                "Courses": [
+                    268
+                ],
+                "Quarter": 4,
+                "Year": 2021
+            }
+        ]
+    }
+]
