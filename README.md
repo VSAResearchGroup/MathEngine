@@ -18,7 +18,9 @@ For version 0.1, you just need to download/clone this repository.
   1. Download the repository and open the project in GNU Octave
   2. Run the 'procedure.m' script from 'bin' directory
   3. Check the generated plans in 'Output' directory
-  *Note: you can change the input by loading the 'DataStructure_WorkingSet.workspace' from the 'Input' directory and changing the 'ReqNet' variable in it.
+
+##Note
+You can change the input by loading the 'DataStructure_WorkingSet.workspace' from the 'Input' directory and changing the 'ReqNet' variable in it.
 
 ## Coming Soon
   : more Intuitiveness
